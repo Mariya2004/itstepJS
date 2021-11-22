@@ -12,7 +12,7 @@ class Car {
     }
 
     start () {
-
+        console.log(`Машина поехала`);
     }
 
     stop () {

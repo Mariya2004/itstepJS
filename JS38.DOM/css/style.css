@@ -1,0 +1,3 @@
+.box span:nth-child(4n + 3) {
+    color: #f00;
+}

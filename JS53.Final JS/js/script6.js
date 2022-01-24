@@ -1,6 +1,6 @@
 // 6. Дано 3 массива. Найти элементы, которые встречаются в каких-либо 2 массивах, но их нету в 3 массиве.
 
-function getElemFromArray(arrC, arrD, arrE){
+function getElemFromArr(arrC, arrD, arrE){
     // let arrRezult = [];
     let arrCC = [];
     let arrDD = [];
@@ -37,4 +37,4 @@ function getElemFromArray(arrC, arrD, arrE){
    return true;
  };
  
- getElemFromArray([1, 1, 3, 5], [1, 6, 7, 7], [1, 2 , 2, 7]);
+ getElemFromArr([1, 1, 3, 5], [1, 6, 7, 7], [1, 2 , 2, 7]);

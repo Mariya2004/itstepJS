@@ -15,3 +15,12 @@ function getReversedNum(num) {
 console.log(getReversedNum(num));
 
 
+// 8. Дано натурально число.Получить число, которое образуется из записи цифр данного в обратном порядке.
+
+// let arr1 = [1, 2, 3];
+
+
+// c = arr1;
+
+// c.sort(function(a, b){return b - a});
+// console.log(c);

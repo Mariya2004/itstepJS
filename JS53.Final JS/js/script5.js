@@ -1,7 +1,21 @@
 // 5. Дано 2 массива и число K. Найти по 1 числу из каждого массива, которые дадут наиближайшую сумму к числу К.
 
 
-
+/*   let c =[], d = [], num = 0;
+  for(let i = 0; i < a.length; i++){
+      c[i] = a[i] - k;
+  }console.log("c:", c);
+  for(let i = 0; i < b.length; i++){
+      
+      for (j = 0; j <b.length; j++){
+          d[num] = c[i] - b[j];
+          num ++;
+          console.log("i:", i, "j:", j, "c[i]:", c[i], "b[j]:", b[j], "d[j]", d[j]);
+      };
+  }console.log("d:", d);
+  
+  return true;
+*/
 function getSumFromArray(arrA, arrB, k){
     let sum = 0, itemB, itemA, result=0, count=100;
     for (let i = 0; i < arrA.length; i++){
@@ -23,8 +37,7 @@ function getSumFromArray(arrA, arrB, k){
                 console.log("itemA :", itemA);
             }
         }
-    }
-    console.log("sum",sum, "count", count, "itemA ", itemA, "itemB", itemB);
+    } console.log("sum",sum, "count", count, "itemA ", itemA, "itemB", itemB);
     return true;
   }; 
   
